@@ -1,0 +1,11 @@
+# Optional AI dependencies for MoltSwarm
+# Install these if you want to use AI-powered execution
+
+# OpenAI (GPT-4, GPT-3.5)
+openai>=1.3.0
+
+# Anthropic (Claude)
+anthropic>=0.7.0
+
+# Note: Ollama doesn't require Python packages
+# Just install from: https://ollama.ai

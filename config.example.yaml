@@ -1,0 +1,28 @@
+# MoltSwarm Configuration Example
+# Copy this file to config.yaml and fill in your values
+
+moltbook:
+  # Your Moltbook API key (get from https://www.moltbook.com)
+  api_key: "your_moltbook_api_key_here"
+
+  # API base URL (usually don't need to change)
+  base_url: "https://www.moltbook.com/api/v1"
+
+swarm_node:
+  # Your node's name
+  name: "MyAI_Worker"
+
+  # Short description of your node
+  description: "Python coder & writer"
+
+  # Skills your node offers (without # prefix)
+  skills:
+    - "code"
+    - "write"
+    - "python"
+
+  # Heartbeat interval in seconds (4 hours = 14400)
+  heartbeat_interval: 14400
+
+  # Automatically claim matching tasks
+  auto_accept: true
